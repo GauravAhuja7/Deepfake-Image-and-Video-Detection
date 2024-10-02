@@ -9,8 +9,8 @@ In this approach, we hypothesized that image generators leave behind low-level c
 
 ### Key Implementation Details:
 
-**Dataset:** ImageNet images for training.
-**Model Architectures:** ResNet50 and ResNet18 with binary classification layers.
+**Dataset:** ImageNet images for training.\n
+**Model Architectures:** ResNet50 and ResNet18 with binary classification layers.\n
 ### Training Configuration:
 **Batch size:** 128
 **Learning rate:** 0.00001
