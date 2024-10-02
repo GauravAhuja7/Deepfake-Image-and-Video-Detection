@@ -32,23 +32,23 @@ Given that Approach 1 showed that training a neural network on a single generati
 
 ### Section 1: Implementaion details:
 
-## Datasets:
+### Datasets:
 - **Laion vs LDM100:** 1000 real, 1000 fake
 - **ImageNet vs LDM200:** 1000 real, 1000 fake
 - **BigGAN Real vs BigGAN Fake:** 2000 real, 2000 fake
 
-## Transformations:
+### Transformations:
 1. No change
 2. Gaussian Blur
 3. Jitter
 4. Gaussian Blur + Jitter
 
-## Backbone Models:
+### Backbone Models:
 - **DINO ViT-B/16**
 - **DINO ResNet50**
 - **CLIP ViT-B/16**
 
-## Classifiers:
+### Classifiers:
 - Bagging Classifier
 - Decision Tree
 - Random Forest
@@ -59,7 +59,7 @@ Given that Approach 1 showed that training a neural network on a single generati
 - Gradient Boosting
 - Linear Probe
 
-## Dimensionality Reduction:
+### Dimensionality Reduction:
 - No reduction
 - Principal Component Analysis (PCA)
 - Autoencoding
