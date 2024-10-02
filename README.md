@@ -63,3 +63,12 @@ Given that Approach 1 showed that training a neural network on a single generati
 - No reduction
 - Principal Component Analysis (PCA)
 - Autoencoding
+
+## Findings:
+
+**1. Impact of using transforms before training and after training:**
+![image](https://github.com/user-attachments/assets/f8451620-428a-4a92-beca-0a8677bee6c3)
+
+![image](https://github.com/user-attachments/assets/e8a9bab6-9809-426b-8857-714da4529f6f)
+
+
