@@ -26,3 +26,7 @@ In this approach, we hypothesized that image generators leave behind low-level c
 - The models failed to generalize to unseen image generation methods.  
 - Overfitting occurred when trained on a specific technique.  
 - Training was time-consuming and computationally expensive.
+
+### Approach 2: Use a generalized backbone for feature maps and then use Classifiers
+Given that Approach 1 showed that training a neural network on a single generation technique limits its effectiveness to that specific method, a more flexible strategy was considered. Instead of focusing on training a neural network solely to classify real or fake images based on a specific generation technique, a better approach is to utilize a pretrained backbone to extract feature maps. These feature maps can then be fed into classifiers like linear probes, KNN, SVMs, and others for the classification task. This method helps improve generalization across different image generation methods.
+
